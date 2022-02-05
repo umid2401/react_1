@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import reactDom from "react-dom";
+import "./App.css"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 style={{color:"white"}} className="h1">Salom</h2>
+      <h3></h3>
+      <p></p>
+      <main></main>
+      <label htmlFor="">kkkkkk</label>
+      <input type="text" />
+      <hr />
+      <i style={{display:"flex"}}>guihojk</i>
+      <i>guihojk</i>
+      <i>guihojk</i>
+      <i>guihojk</i>
+      <i>guihojk</i>
+      
     </div>
+
   );
 }
 
